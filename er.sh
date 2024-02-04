@@ -2,8 +2,8 @@
 
 declare -A movies
 
-movies["The Shawshank Redemption"]="1994,Drama, Frank Darabont, 9.3,Two imprisoned"
-movies["The Godfather"]="1972,Crime, Francis Ford Coppola, 9.2,An organized crime"
+movies["The Shawshank Redemption"]="1994,Drama, Frank Darabont, 9.3,Two imprisoned. Andy Dufresne, a quiet banker, is sentenced to life imprisonment in the Shawshank State Penitentiary for the murder of his wife and her lover, despite his claims of innocence."
+movies["The Godfather"]="1972,Crime, Francis Ford Coppola, 9.2,An organized crime  "
 movies["The Dark Knight"]="2008,Action, Christopher Nolan, 9,When the menace"
 movies["The Godfather: Part II"]="1974,Crime, Francis Ford Coppola, 9,The early life"
 movies["12"]="2007,Crime, Nikita Mikhalkov, 7.7,Aleksei is a former"
@@ -29,7 +29,7 @@ movies["The Lion King"]="1994,Animation, Roger Allers, 8.5,A young lion"
 movies["The Pianist"]="2002,Biography, Roman Polanski, 8.5,A Polish Jewish"
 movies["Gladiator"]="2000,Action, Ridley Scott, 8.5,Maximus is a powerful"
 movies["American History X"]="1998,Drama, Tony Kaye, 8.5,Derek Vinyard"
-movies["The Departed"]="2006,Crime, Martin Scorsese, 8.5,An undercover cop"
+movies["The Departed"]="2006,Crime, Martin Scorsese, 8.5,An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
 movies["The Prestige"]="2006,Drama, Christopher Nolan, 8.5,In the end"
 movies["The Intouchables"]="2011,Biography, Olivier Nakache, 8.5,After he becomes"
 movies["The Usual Suspects"]="1995,Crime, Bryan Singer, 8.5,Following a truck"
