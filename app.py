@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, make_response
+from flask import Flask, render_template, request, jsonify, make_response
 from flask_sqlalchemy import SQLAlchemy
 from os import environ
 
@@ -34,6 +34,13 @@ class Movie(db.Model):
 
 db.create_all()
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/movies/add', methods=['GET'])
+def add_movie_form():
+    return render_template('movie_form.html')
 
 # create a test route
 @app.route('/test', methods=['GET'])
